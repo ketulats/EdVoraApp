@@ -7,24 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4756CDDB2273E3C448ADDD1F /* Pods_Edvora__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006FF760F12C032F73A64C09 /* Pods_Edvora__macOS_.framework */; };
 		8F8BCF4B3F1F5C1E24A3D448 /* Pods_Edvora__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267CEDF8C6BB5ABBDADDFF3D /* Pods_Edvora__iOS_.framework */; };
 		9E9C6BA32744F47600635A31 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BA22744F47600635A31 /* Tests_iOS.swift */; };
 		9E9C6BA52744F47600635A31 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BA42744F47600635A31 /* Tests_iOSLaunchTests.swift */; };
 		9E9C6BAF2744F47600635A31 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BAE2744F47600635A31 /* Tests_macOS.swift */; };
 		9E9C6BB12744F47600635A31 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BB02744F47600635A31 /* Tests_macOSLaunchTests.swift */; };
 		9E9C6BB22744F47600635A31 /* EdvoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6B8A2744F47400635A31 /* EdvoraApp.swift */; };
-		9E9C6BB32744F47600635A31 /* EdvoraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6B8A2744F47400635A31 /* EdvoraApp.swift */; };
 		9E9C6BB42744F47600635A31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6B8B2744F47400635A31 /* ContentView.swift */; };
-		9E9C6BB52744F47600635A31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6B8B2744F47400635A31 /* ContentView.swift */; };
 		9E9C6BB62744F47600635A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9C6B8C2744F47600635A31 /* Assets.xcassets */; };
-		9E9C6BB72744F47600635A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E9C6B8C2744F47600635A31 /* Assets.xcassets */; };
 		9E9C6BC72744F75E00635A31 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BC62744F75E00635A31 /* LogoImage.swift */; };
-		9E9C6BC82744F75E00635A31 /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BC62744F75E00635A31 /* LogoImage.swift */; };
 		9E9C6BCA2744F9D000635A31 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BC92744F9D000635A31 /* MaterialTextField.swift */; };
-		9E9C6BCB2744F9D000635A31 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BC92744F9D000635A31 /* MaterialTextField.swift */; };
 		9E9C6BCD2745295B00635A31 /* MaterialTextFieldSecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BCC2745295B00635A31 /* MaterialTextFieldSecure.swift */; };
-		9E9C6BCE2745295B00635A31 /* MaterialTextFieldSecure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9C6BCC2745295B00635A31 /* MaterialTextFieldSecure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +27,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 9E9C6B902744F47600635A31;
 			remoteInfo = "Edvora (iOS)";
-		};
-		9E9C6BAB2744F47600635A31 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9E9C6B852744F47400635A31 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9E9C6B962744F47600635A31;
-			remoteInfo = "Edvora (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,7 +39,6 @@
 		9E9C6B8B2744F47400635A31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9E9C6B8C2744F47600635A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E9C6B912744F47600635A31 /* Edvora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edvora.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E9C6B972744F47600635A31 /* Edvora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edvora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9C6B992744F47600635A31 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		9E9C6B9E2744F47600635A31 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E9C6BA22744F47600635A31 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
@@ -74,14 +59,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F8BCF4B3F1F5C1E24A3D448 /* Pods_Edvora__iOS_.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E9C6B942744F47600635A31 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4756CDDB2273E3C448ADDD1F /* Pods_Edvora__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				9E9C6B912744F47600635A31 /* Edvora.app */,
-				9E9C6B972744F47600635A31 /* Edvora.app */,
 				9E9C6B9E2744F47600635A31 /* Tests iOS.xctest */,
 				9E9C6BAA2744F47600635A31 /* Tests macOS.xctest */,
 			);
@@ -206,24 +182,6 @@
 			productReference = 9E9C6B912744F47600635A31 /* Edvora.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9E9C6B962744F47600635A31 /* Edvora (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9E9C6BBD2744F47600635A31 /* Build configuration list for PBXNativeTarget "Edvora (macOS)" */;
-			buildPhases = (
-				F38550C0152471E8F6BC5B5E /* [CP] Check Pods Manifest.lock */,
-				9E9C6B932744F47600635A31 /* Sources */,
-				9E9C6B942744F47600635A31 /* Frameworks */,
-				9E9C6B952744F47600635A31 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Edvora (macOS)";
-			productName = "Edvora (macOS)";
-			productReference = 9E9C6B972744F47600635A31 /* Edvora.app */;
-			productType = "com.apple.product-type.application";
-		};
 		9E9C6B9D2744F47600635A31 /* Tests iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E9C6BC02744F47600635A31 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
@@ -253,7 +211,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				9E9C6BAC2744F47600635A31 /* PBXTargetDependency */,
 			);
 			name = "Tests macOS";
 			productName = "Tests macOS";
@@ -271,9 +228,6 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					9E9C6B902744F47600635A31 = {
-						CreatedOnToolsVersion = 13.1;
-					};
-					9E9C6B962744F47600635A31 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 					9E9C6B9D2744F47600635A31 = {
@@ -300,7 +254,6 @@
 			projectRoot = "";
 			targets = (
 				9E9C6B902744F47600635A31 /* Edvora (iOS) */,
-				9E9C6B962744F47600635A31 /* Edvora (macOS) */,
 				9E9C6B9D2744F47600635A31 /* Tests iOS */,
 				9E9C6BA92744F47600635A31 /* Tests macOS */,
 			);
@@ -313,14 +266,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9C6BB62744F47600635A31 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E9C6B952744F47600635A31 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E9C6BB72744F47600635A31 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,28 +308,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F38550C0152471E8F6BC5B5E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Edvora (macOS)-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -397,18 +320,6 @@
 				9E9C6BCA2744F9D000635A31 /* MaterialTextField.swift in Sources */,
 				9E9C6BB22744F47600635A31 /* EdvoraApp.swift in Sources */,
 				9E9C6BCD2745295B00635A31 /* MaterialTextFieldSecure.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9E9C6B932744F47600635A31 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E9C6BC82744F75E00635A31 /* LogoImage.swift in Sources */,
-				9E9C6BB52744F47600635A31 /* ContentView.swift in Sources */,
-				9E9C6BCB2744F9D000635A31 /* MaterialTextField.swift in Sources */,
-				9E9C6BB32744F47600635A31 /* EdvoraApp.swift in Sources */,
-				9E9C6BCE2745295B00635A31 /* MaterialTextFieldSecure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +348,6 @@
 			isa = PBXTargetDependency;
 			target = 9E9C6B902744F47600635A31 /* Edvora (iOS) */;
 			targetProxy = 9E9C6B9F2744F47600635A31 /* PBXContainerItemProxy */;
-		};
-		9E9C6BAC2744F47600635A31 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9E9C6B962744F47600635A31 /* Edvora (macOS) */;
-			targetProxy = 9E9C6BAB2744F47600635A31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -618,60 +524,6 @@
 			};
 			name = Release;
 		};
-		9E9C6BBE2744F47600635A31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05433729241E824F48D8FF16 /* Pods-Edvora (macOS).debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Edvora.Edvora;
-				PRODUCT_NAME = Edvora;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		9E9C6BBF2744F47600635A31 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAA77A611E26B59783C8A1B6 /* Pods-Edvora (macOS).release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 11.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Edvora.Edvora;
-				PRODUCT_NAME = Edvora;
-				SDKROOT = macosx;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		9E9C6BC12744F47600635A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -786,15 +638,6 @@
 			buildConfigurations = (
 				9E9C6BBB2744F47600635A31 /* Debug */,
 				9E9C6BBC2744F47600635A31 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9E9C6BBD2744F47600635A31 /* Build configuration list for PBXNativeTarget "Edvora (macOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9E9C6BBE2744F47600635A31 /* Debug */,
-				9E9C6BBF2744F47600635A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
